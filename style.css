@@ -1,0 +1,70 @@
+html, 
+p {
+  font-size: small;
+  font: 1em sans-serif;
+  text-indent: 10%;
+  /* deklarasikan nilai properti lainnya pada garis baru */
+}
+  
+body {
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  color: #ccffc0
+  font-family: "Dicoding Font";
+  letter-spacing: 4px;
+}
+
+h3 {
+color: #ffffcc
+text-shadow: 2px 2px 7px #111111;
+background-color: #cccccc;
+color: #ffffff;
+} 
+
+footer {
+padding: 20px;
+color: white;
+background-color: #00a2c6;
+text-align: center;
+font-weight: bold;
+}
+
+/* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+a:link {
+color: red;
+}
+  
+/* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+a:visited {
+color: green;
+}
+
+/* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+a:hover {
+color: pink;
+}
+
+/* rule akan diterapkan pada sebuah tautan ketika ditekan */
+a:active {
+color:orange;
+
+h1 {
+font-size: 150%; /* 150% dari 16 = 24px */
+}
+
+@font-face {
+font-family: "Dicoding Font";
+src: url('FILE-FONT.TTF');
+}
+
+nav a {
+font-size: 18px;
+font-weight: 400;
+text-decoration: none;
+}
